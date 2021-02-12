@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "NeueHaasDisplay";
+  src: local("NeueHaasDisplay"),
+  url("./fonts/NeueHaasDisplay-Roman.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "NeueHaasDisplay";
+  src: local("NeueHaasDisplay"),
+  url("./fonts/NeueHaasDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "NeueHaasDisplay";
+  src: local("NeueHaasDisplay"),
+  url("./fonts/NeueHaasDisplay-Light.ttf") format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "NeueHaasDisplay";
+  src: local("NeueHaasDisplay"),
+  url("./fonts/NeueHaasDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
