@@ -10,7 +10,7 @@ const Input = styled.input`
   font-family: NeueHaasDisplay, sans-serif;
   font-weight: normal;
   text-align: center;
-  border: black 1px solid;
+ border: none;
   height: 30px;
 `;
 

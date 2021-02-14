@@ -9,11 +9,13 @@ const AppBar = () => {
     justify-content: space-between;
     padding: 0 10px;
     margin-bottom: 25px;
-    border-bottom: black dotted 1px;
+    border-bottom:  #fe9e2b solid 1px;
+    background-color: black;
   `;
   const Title = styled.div`
     font-weight: 900;
     font-size: 3rem;
+    color: #fe9e2b;
   `;
 
 

@@ -2,6 +2,7 @@ import AppBar from './Components/AppBar/AppBar';
 import styled, { createGlobalStyle } from 'styled-components';
 import './App.css';
 import Headline from './Components/Headline';
+import FrontPage from './Components/FrontPage';
 
 const Global = createGlobalStyle`
 body {
@@ -10,12 +11,12 @@ body {
 }
 button {
   font-weight: bold;
-  color: white;
+  color: black;
   padding: 5px 15px;
-  background-color: black;
+  background-color: #fe9e2b;
   width: fit-content;
-  border: 1px black;
-  height: 34px;
+  border: none;
+  height: 32px;
   text-transform: capitalize;
 }
 button:hover {
@@ -23,8 +24,9 @@ button:hover {
 }
 `;
 const MainContainer = styled.div`
-  max-width: 1080px;
-  border: black 1px solid;
+  max-width: 1200px;
+  padding-top: 20px;
+  border-top: black 1px solid;
   margin: auto;
 `;
 
@@ -35,7 +37,7 @@ function App() {
       <div className="App">
         <AppBar />
         <MainContainer>
-          <Headline />
+          <FrontPage />
         </MainContainer>
       </div>
     </>
