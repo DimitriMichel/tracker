@@ -18,7 +18,6 @@ const AppBar = () => {
     color: #fe9e2b;
   `;
 
-
   return (
       <AppBarWrapper>
         <Search />

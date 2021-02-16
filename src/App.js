@@ -1,8 +1,8 @@
 import AppBar from './Components/AppBar/AppBar';
 import styled, { createGlobalStyle } from 'styled-components';
 import './App.css';
-import Headline from './Components/Headline';
-import FrontPage from './Components/FrontPage';
+import Headline from './Components/Front Page/Headline';
+import FrontPage from './Components/Front Page/FrontPage';
 
 const Global = createGlobalStyle`
 body {

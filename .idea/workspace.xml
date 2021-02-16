@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1fa3df-da2e-4966-9c37-f13f5f456775" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/FrontPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/MainSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/Crypto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/FrontPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/GeneralStories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/LatestArticles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/StockSideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/TodaysArticles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AppBar/AppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AppBar/AppBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AppBar/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AppBar/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Headline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Headline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FrontPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Headline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/Headline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MainSection.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,7 +53,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Front Page" />
       <recent name="$PROJECT_DIR$/src/fonts" />
       <recent name="$PROJECT_DIR$/src/Components/AppBar" />
     </key>
@@ -62,7 +70,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613015338261</updated>
-      <workItem from="1613015340344" duration="15602000" />
+      <workItem from="1613015340344" duration="26279000" />
+      <workItem from="1613438246026" duration="974000" />
     </task>
     <servers />
   </component>
@@ -79,5 +88,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
