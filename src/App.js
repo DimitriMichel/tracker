@@ -1,8 +1,7 @@
 import AppBar from './Components/AppBar/AppBar';
 import styled, { createGlobalStyle } from 'styled-components';
+import Router from './Components/Router';
 import './App.css';
-import Headline from './Components/Front Page/Headline';
-import FrontPage from './Components/Front Page/FrontPage';
 
 const Global = createGlobalStyle`
 body {
@@ -25,10 +24,11 @@ button:hover {
 `;
 const MainContainer = styled.div`
   max-width: 1200px;
-  padding-top: 20px;
-  border-top: black 1px solid;
   margin: auto;
 `;
+MainContainer.defaultProps = {
+  role: 'main',
+};
 
 function App() {
   return (
@@ -37,7 +37,7 @@ function App() {
       <div className="App">
         <AppBar />
         <MainContainer>
-          <FrontPage />
+          <Router />
         </MainContainer>
       </div>
     </>

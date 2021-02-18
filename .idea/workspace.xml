@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1fa3df-da2e-4966-9c37-f13f5f456775" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/Crypto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/FrontPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/GeneralStories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/LatestArticles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/StockSideBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Front Page/TodaysArticles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/StockPage/DataStrip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/StockPage/StockPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/StockPage/StockTickerOverview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AppBar/AppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AppBar/AppBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FrontPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Headline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/Headline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainSection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AppBar/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AppBar/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Front Page/FrontPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/FrontPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Front Page/GeneralStories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/GeneralStories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Front Page/Headline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/Headline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +60,7 @@
       <recent name="$PROJECT_DIR$/src/Components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/StockPage" />
       <recent name="$PROJECT_DIR$/src/Components/Front Page" />
       <recent name="$PROJECT_DIR$/src/fonts" />
       <recent name="$PROJECT_DIR$/src/Components/AppBar" />
@@ -72,6 +76,7 @@
       <updated>1613015338261</updated>
       <workItem from="1613015340344" duration="26279000" />
       <workItem from="1613438246026" duration="974000" />
+      <workItem from="1613451191336" duration="15095000" />
     </task>
     <servers />
   </component>

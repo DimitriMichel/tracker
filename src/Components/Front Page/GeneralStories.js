@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StoriesContainer = styled.div`
-
   grid-area: subzone-stories;
   display: flex;
 

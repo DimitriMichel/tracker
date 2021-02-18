@@ -2,17 +2,24 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-    display: flex;
-    align-content: center;
-    align-items: center;
-  `;
+  display: flex;
+  align-content: center;
+  align-items: center;
+`;
+
+Wrapper.defaultProps = {
+  role: 'search',
+};
 const Input = styled.input`
   font-family: NeueHaasDisplay, sans-serif;
   font-weight: normal;
   text-align: center;
- border: none;
+  border: none;
   height: 30px;
 `;
+Input.defaultProps = {
+  role: 'searchbox',
+};
 
 const Search = ({ keyword, setKeyword }) => {
   return (

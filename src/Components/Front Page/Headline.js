@@ -19,6 +19,9 @@ const HeadlineGrid = styled.div`
   .story {
     background-color: black;
     color: #fe9e2b;
+    padding: 10px;
+    border-bottom: 1px solid #fe9e2b;
+    border-top: 1px solid #fe9e2b;
   }
   .headline-story-one {
     grid-area: headline-story-one;
@@ -31,6 +34,8 @@ const HeadlineGrid = styled.div`
   .headline-story-three {
     grid-area: headline-story-three;
   }
+
+
   a {
     color: #fe9e2b;
     font-size: 1.2rem;
@@ -65,40 +70,32 @@ const Title = styled.h1`
 const Headline = () => {
   return (
     <section>
-      <article>
-        <HeadlineGrid>
-          <Title tabIndex="0">
+      <HeadlineGrid>
+        <Title>
+          Trump Defense to Wrap Up in Under Four Hours: Impeachment Update
+        </Title>
+        <HeadlineImage>
+          <img
+            src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ieUAMcd464Dw/v0/800x600.jpg"
+            alt="trump"
+          />
+        </HeadlineImage>
+        <div className="headline-story-one story">
+          <a href="#" >
             Trump Defense to Wrap Up in Under Four Hours: Impeachment Update
-          </Title>
-          <HeadlineImage>
-            <img
-              src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ieUAMcd464Dw/v0/800x600.jpg"
-              alt="trump"
-            />
-          </HeadlineImage>
-          <div className="headline-story-one story" tabIndex="1">
-            <p>
-              <a href="#">
-                Trump Defense to Wrap Up in Under Four Hours: Impeachment Update
-              </a>
-            </p>
-          </div>
-          <div className="headline-story-two story" tabIndex="2">
-            <p>
-              <a href="#">
-                Democrats Use Video, Trump’s Words to Build Impeachment Case
-              </a>
-            </p>
-          </div>
-          <div className="headline-story-three story" tabIndex="3">
-            <p>
-              <a href="#">
-                Trump Team Hoping ‘Peacefully and Patriotically’ Will Be Shield
-              </a>
-            </p>
-          </div>
-        </HeadlineGrid>
-      </article>
+          </a>
+        </div>
+        <div className="headline-story-two story">
+          <a href="#" >
+            Democrats Use Video, Trump’s Words to Build Impeachment Case
+          </a>
+        </div>
+        <div className="headline-story-three story">
+          <a href="#" >
+            Trump Team Hoping ‘Peacefully and Patriotically’ Will Be Shield
+          </a>
+        </div>
+      </HeadlineGrid>
     </section>
   );
 };
