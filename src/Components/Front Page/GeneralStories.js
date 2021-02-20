@@ -16,7 +16,7 @@ const StoryTitle = styled.div`
   width: 175px;
 
   max-width: 100%;
-  border-bottom: 1px dotted #fe9e2b; ;
+  border-bottom: 1px dotted black; ;
 `;
 
 const GeneralStories = () => {

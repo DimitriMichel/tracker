@@ -8,7 +8,7 @@ const Title = styled.h2`
   font-weight: 900;
   font-size: 2.3rem;
   width: 100%;
-  border-bottom: 2px solid #fe9e2b; ;
+  border-bottom: 2px solid #1fc894; ;
 `;
 const Image = styled.img`
   grid-area: subzone-image;
@@ -24,15 +24,17 @@ Image.defaultProps = {
 const TodaysMainArticles = styled.div`
   grid-area: subzone-subheadline;
   display: flex;
+
   flex-direction: column;
 `;
 const SubMainTitle = styled.h3`
   margin: 0 0 0 0px;
-  padding-bottom: 20px;
+  padding: 10px 0;
+
   font-size: 1.3rem;
   width: 100%;
   max-width: 100%;
-  border-bottom: 1px dotted #fe9e2b; ;
+  border-bottom: 1px dotted black; ;
 `;
 const SubStoryTitle = styled.h4`
   margin: 0 0 0 0px;
@@ -42,7 +44,7 @@ const SubStoryTitle = styled.h4`
   width: 100%;
   max-width: 100%;
   width: 100%;
-  border-bottom: 1px dotted #fe9e2b; ;
+  border-bottom: 1px dotted black; ;
 `;
 
 const TodaysStories = () => {

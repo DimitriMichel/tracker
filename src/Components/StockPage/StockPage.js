@@ -2,17 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 import DataStrip from './DataStrip';
 import StockTickerOverview from './StockTickerOverview';
+import PriceChart from './PriceChart';
 
 const StockPageGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: .2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 20px;
+  grid-template-rows: 0.2fr 0.1fr 0.1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
   grid-template-areas:
     'data-strip data-strip data-strip data-strip'
     'stock-ticker stock-ticker stock-ticker stock-ticker'
-    'current-stock-price current-stock-price current-stock-price stock-chart'
-    'stock-overview stock-overview stock-overview stock-chart'
+    'current-stock-price current-stock-price stock-chart stock-chart'
+    'stock-overview stock-overview stock-chart stock-chart'
     'headline headline headline related-news-title'
     'article-image article article related-news'
     'key-statistics key-statistics key-statistics related-news';
@@ -63,6 +64,7 @@ const StockPage = () => {
     <StockPageGrid>
       <DataStrip />
       <StockTickerOverview />
+      <PriceChart />
     </StockPageGrid>
   );
 };

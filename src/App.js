@@ -12,9 +12,12 @@ button {
   font-weight: bold;
   color: black;
   padding: 5px 15px;
-  background-color: #fe9e2b;
+  background-color: white;
   width: fit-content;
-  border: none;
+  border-left: 1px black solid;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
   height: 32px;
   text-transform: capitalize;
 }

@@ -7,6 +7,7 @@ const Strip = styled.div`
   border-bottom: black solid 1px;
   padding: 0 0 20px 6px;
   display: flex;
+  margin-bottom: 30px;
   flex-direction: row;
   justify-content: center;
 `;

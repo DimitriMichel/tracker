@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1fa3df-da2e-4966-9c37-f13f5f456775" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/StockPage/DataStrip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/StockPage/StockPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/StockPage/StockTickerOverview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/StockPage/PriceChart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AppBar/AppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AppBar/AppBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AppBar/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AppBar/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Front Page/FrontPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/FrontPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Front Page/GeneralStories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/GeneralStories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Front Page/Headline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/Headline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Front Page/LatestArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/LatestArticles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Front Page/StockSideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/StockSideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Front Page/TodaysArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Front Page/TodaysArticles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StockPage/DataStrip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StockPage/DataStrip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StockPage/StockPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StockPage/StockPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StockPage/StockTickerOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StockPage/StockTickerOverview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,8 @@
       <updated>1613015338261</updated>
       <workItem from="1613015340344" duration="26279000" />
       <workItem from="1613438246026" duration="974000" />
-      <workItem from="1613451191336" duration="15095000" />
+      <workItem from="1613451191336" duration="22035000" />
+      <workItem from="1613649401664" duration="5177000" />
     </task>
     <servers />
   </component>

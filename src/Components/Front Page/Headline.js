@@ -18,10 +18,10 @@ const HeadlineGrid = styled.div`
   }
   .story {
     background-color: black;
-    color: #fe9e2b;
+    color: #1FC894;
     padding: 10px;
-    border-bottom: 1px solid #fe9e2b;
-    border-top: 1px solid #fe9e2b;
+
+    border-top: 1px solid #1FC894;
   }
   .headline-story-one {
     grid-area: headline-story-one;
@@ -37,7 +37,7 @@ const HeadlineGrid = styled.div`
 
 
   a {
-    color: #fe9e2b;
+    color: white;
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: bold;

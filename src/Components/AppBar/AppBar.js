@@ -9,7 +9,7 @@ const AppBar = () => {
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
-    border-bottom: #fe9e2b solid 2px;
+
     background-color: black;
   `;
   const Title = styled.div`
@@ -27,7 +27,7 @@ const AppBar = () => {
   const Degree = styled.span`
     font-weight: 900;
     font-size: 2.5rem;
-    color: #fe9e2b;
+    color: #1FC894;
   `;
   const EconBar = styled.div`
     width: 100%;

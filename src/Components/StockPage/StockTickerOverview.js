@@ -11,19 +11,40 @@ const StockTickerOverview = () => {
         <Container>
           <Name>Apple Inc</Name>
         </Container>
-        <PriceOverview>
-          <Price>
-            130.84<PriceCurrency>USD</PriceCurrency>
-          </Price>
-          <PriceChange aria-labelledby="change">
-            <AbsoluteChange id="change">-1.76%</AbsoluteChange>
-            <PriceChangeArrow>{''}</PriceChangeArrow>
-          </PriceChange>
-        </PriceOverview>
       </Company>
+      <PriceOverview>
+        <Price>
+          130.84<PriceCurrency>USD</PriceCurrency>
+        </Price>
+        <PriceChange aria-labelledby="change">
+          <AbsoluteChange id="change">-1.76%</AbsoluteChange>
+          <PriceChangeArrow>{''}</PriceChangeArrow>
+        </PriceChange>
+      </PriceOverview>
       <Details>
         <DataBox>
           <DataTitle>Open</DataTitle>
+          <DataValue>132.25</DataValue>
+        </DataBox>
+        <DataBox>
+          <DataTitle>Close</DataTitle>
+          <DataValue>131.83</DataValue>
+        </DataBox>
+        <DataBox>
+          <DataTitle>Volume</DataTitle>
+          <DataValue>98,005,433</DataValue>
+        </DataBox>
+        <DataBox>
+          <DataTitle>Open</DataTitle>
+          <DataValue>132.25</DataValue>
+        </DataBox>
+        <DataBox>
+          <DataTitle>Close</DataTitle>
+          <DataValue>131.83</DataValue>
+        </DataBox>
+        <DataBox>
+          <DataTitle>Volume</DataTitle>
+          <DataValue>98,005,433</DataValue>
         </DataBox>
       </Details>
     </>
@@ -37,8 +58,10 @@ const Ticker = styled.span`
 const Company = styled.section`
   grid-area: stock-ticker;
   display: block;
-  margin-left: 10px;
+  padding-left: 10px;
   width: 100%;
+
+  border-left: 5px red solid;
 `;
 
 const Container = styled.div``;
@@ -61,7 +84,7 @@ const Exchange = styled.span`
 `;
 
 const PriceOverview = styled.section`
-  grid-area: 'current-stock-price';
+  grid-area: current-stock-price;
   margin-top: 15px;
   display: inline-block;
 `;
@@ -97,22 +120,38 @@ const PriceChangeArrow = styled.span`
 `;
 
 const Details = styled.div`
-  grid-area: 'stock-overview';
+  grid-area: stock-overview;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 20px;
 `;
 
-const DataTitle = styled.span`
+const DataTitle = styled.header`
   font-weight: 100;
   color: #767676;
+
+  margin-top: 5px;
 `;
 
 const DataBox = styled.div`
   min-height: 56px;
+  display: flex;
+  max-width: 200px;
+  min-width: 170px;
+  flex-direction: column;
   border-top: 1px dotted black;
   margin: 0 8px;
   flex-grow: 1;
+`;
+
+const DataValue = styled.div`
+  font-size: 1rem;
+  width: 100%;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-top: 9px;
+  padding-bottom: 9px;
 `;
 
 export default StockTickerOverview;

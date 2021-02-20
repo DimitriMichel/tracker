@@ -30,7 +30,7 @@ const Stocks = styled.h3`
   font-size: 1.3rem;
   width: 100%;
   max-width: 100%;
-  border-bottom: 1px dotted #fe9e2b; ;
+  border-bottom: 1px dotted white; ;
 `;
 const TrendingStocks = () => {
   return (

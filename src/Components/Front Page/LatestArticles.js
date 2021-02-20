@@ -7,7 +7,7 @@ const Title = styled.h2`
   justify-self: center;
   text-align: center;
   text-transform: uppercase;
-  color: #fe9e2b;
+  color: white;
   padding: 1px;
   font-weight: bold;
   font-size: 1.5rem;
@@ -18,6 +18,7 @@ const Title = styled.h2`
 const RecentArticles = styled.div`
   grid-area: latest-news;
   display: flex;
+  padding-right: 30px;
   flex-direction: column;
 `;
 const RecentArticleTitle = styled.h3`
@@ -27,7 +28,7 @@ const RecentArticleTitle = styled.h3`
   font-size: 1rem;
   width: 100%;
   max-width: 100%;
-  border-bottom: 1px dotted #fe9e2b; ;
+  border-bottom: 1px dotted black; ;
 `;
 
 const LatestArticles = () => {
