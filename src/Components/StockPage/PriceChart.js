@@ -15,7 +15,7 @@ const PriceChart = () => {
         type="axis-mixed"
         colors={['#1FC894', '#000']}
         axisOptions={{ xAxisMode: 'span', yAxisMode: 'span', xIsSeries: 2 }}
-        height={250}
+        height={290}
         data={{
           labels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
           datasets: [

@@ -85,10 +85,13 @@ const Exchange = styled.span`
 
 const PriceOverview = styled.section`
   grid-area: current-stock-price;
-  margin-top: 15px;
+  max-height: 50px;
+  align-items: center;
+  margin-top: 5px;
   display: inline-block;
 `;
 const Price = styled.div`
+ 
   font-size: 3rem;
   font-weight: bold;
   display: inline-block;
@@ -124,19 +127,22 @@ const Details = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 20px;
+margin-bottom: 5px;
 `;
 
 const DataTitle = styled.header`
   font-weight: 100;
   color: #767676;
 
+  
+
   margin-top: 5px;
 `;
 
 const DataBox = styled.div`
-  min-height: 56px;
+  height: 56px;
   display: flex;
+  justify-content: center;
   max-width: 200px;
   min-width: 170px;
   flex-direction: column;

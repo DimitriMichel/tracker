@@ -3,60 +3,27 @@ import styled from 'styled-components';
 import DataStrip from './DataStrip';
 import StockTickerOverview from './StockTickerOverview';
 import PriceChart from './PriceChart';
+import StockNews from './StockNews';
+import KeyStatistics from './KeyStatistics';
 
 const StockPageGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 0.1fr 0.1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-template-areas:
     'data-strip data-strip data-strip data-strip'
-    'stock-ticker stock-ticker stock-ticker stock-ticker'
+    'stock-ticker stock-ticker stock-chart stock-chart'
     'current-stock-price current-stock-price stock-chart stock-chart'
     'stock-overview stock-overview stock-chart stock-chart'
-    'headline headline headline related-news-title'
-    'article-image article article related-news'
-    'key-statistics key-statistics key-statistics related-news';
-
-  .stock-ticker {
-    grid-area: stock-ticker;
-  }
-
-  .current-stock-price {
-    grid-area: current-stock-price;
-  }
-
-  .stock-overview {
-    grid-area: stock-overview;
-  }
-
-  .stock-chart {
-    grid-area: stock-chart;
-  }
-
-  .key-statistics {
-    grid-area: key-statistics;
-  }
-
-  .article-image {
-    grid-area: article-image;
-  }
-
-  .article {
-    grid-area: article;
-  }
-
-  .headline {
-    grid-area: headline;
-  }
-
-  .related-news-title {
-    grid-area: related-news-title;
-  }
-
-  .related-news {
-    grid-area: related-news;
-  }
+    'key-statistics key-statistics key-statistics key-statistics'
+    'stock-news stock-news stock-news stock-news'
+    'stock-news stock-news stock-news stock-news';
+`;
+const NewsContainer = styled.div`
+  background-color: black;
+  padding: 15px;
+  width: 100%;
 `;
 
 const StockPage = () => {
@@ -65,6 +32,7 @@ const StockPage = () => {
       <DataStrip />
       <StockTickerOverview />
       <PriceChart />
+      <KeyStatistics />
     </StockPageGrid>
   );
 };
