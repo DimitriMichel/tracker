@@ -91,7 +91,6 @@ const PriceOverview = styled.section`
   display: inline-block;
 `;
 const Price = styled.div`
- 
   font-size: 3rem;
   font-weight: bold;
   display: inline-block;
@@ -127,15 +126,12 @@ const Details = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-margin-bottom: 5px;
+  margin-bottom: 5px;
 `;
 
 const DataTitle = styled.header`
   font-weight: 100;
   color: #767676;
-
-  
-
   margin-top: 5px;
 `;
 

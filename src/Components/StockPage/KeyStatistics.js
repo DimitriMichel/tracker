@@ -1,12 +1,29 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const mockData = {
+  'P/E Ration': 35.25,
+  'Shares Issued': 4082000000,
+  EBITDA: 80342000000,
+  Revenue: 65809000000,
+  Profit: 101983000000,
+};
+
+const mockDataTwo = {
+  '1 Year Return': '67.25%',
+  '30 Day Avg Volume': 907800,
+  EPS: 3.68,
+  Dividend: 0.63,
+  'Price to Book Ratio': 32.9916,
+};
+
 const KeyStatistics = () => {
   return (
     <KeyDetailsGrid>
       <Headline>Key Statistics</Headline>
-      <AboutContainer>
-        <Company>
+
+      <Container style={{ gridArea: 'about' }}>
+        <Module>
           <Title>About</Title>
           <Info>
             Apple, Inc. engages in the design, manufacture, and marketing of
@@ -21,15 +38,12 @@ const KeyStatistics = () => {
             founded by Steven Paul Jobs, Ronald Gerald Wayne, and Stephen G.
             Wozniak on April 1, 1976 and is headquartered in Cupertino, CA.
           </Info>
-        </Company>
-        <Management>
+        </Module>
+        <Module>
           <Title>Management</Title>
-          <Info>
-            CEO: Timothy Donald Cook
-            <br /> Employees: 132000
-          </Info>
-        </Management>
-      </AboutContainer>
+          <Info>CEO: Timothy Donald Cook</Info>
+        </Module>
+      </Container>
     </KeyDetailsGrid>
   );
 };
@@ -37,17 +51,16 @@ const KeyStatistics = () => {
 const KeyDetailsGrid = styled.div`
   margin-top: 60px;
   grid-area: key-statistics;
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
     'headline headline headline headline'
+    'statistics statistics statistics statistics'
+    'statistics statistics statistics statistics'
     'about about about about'
-    'about about about about'
-    'statistics-title statistics-title statistics-title statistics-title'
-    'statistics statistics statistics statistics';
+    'about about about about';
 
   background-color: black;
   padding: 25px;
@@ -55,6 +68,39 @@ const KeyDetailsGrid = styled.div`
   border-radius: 4px;
 `;
 
+const StatsModule = styled.div`
+  position: relative;
+  margin-bottom: 4px;
+  padding-bottom: 20px;
+`;
+
+const RowList = styled.div`
+  display: inline-block;
+  width: calc(50% - 10px);
+  vertical-align: top;
+`;
+
+const RowListItem = styled.div`
+  border-bottom: 1px dotted white;
+  padding: 10px 0;
+  line-height: 10px;
+  overflow: hidden;
+`;
+
+const Label = styled.div`
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  color: white;
+  float: left;
+`;
+const DataPoint = styled.div`
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  color: white;
+  float: right;
+`;
 const Headline = styled.h2`
   grid-area: headline;
   margin: 0 0 20px 0;
@@ -64,8 +110,7 @@ const Headline = styled.h2`
   width: 100%;
 `;
 
-const AboutContainer = styled.div`
-  grid-area: about;
+const Container = styled.div`
   display: flex;
   flex-flow: row wrap;
 `;
@@ -77,11 +122,11 @@ const Title = styled.h2`
   width: 100%;
   border-bottom: white 1px solid;
 `;
-const Company = styled.div`
+const Module = styled.div`
   max-width: 50%;
   width: 50%;
 `;
-const Info = styled.p`
+const Info = styled.div`
   font-family: NeueHaasDisplay, sans-serif;
   font-size: 1.2rem;
   max-width: 500px;
@@ -92,9 +137,6 @@ const Info = styled.p`
   width: 100%;
   min-height: 100%;
 `;
-const Management = styled.div`
-  max-width: 50%;
-  width: 50%;
-`;
+
 
 export default KeyStatistics;

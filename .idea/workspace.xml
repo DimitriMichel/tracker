@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1fa3df-da2e-4966-9c37-f13f5f456775" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/StockPage/StockNews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/StockPage/Statistics/StatisticsModule.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/StockPage/PriceChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StockPage/PriceChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/StockPage/StockPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StockPage/StockPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/StockPage/StockRelatedNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StockPage/KeyStatistics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StockPage/KeyStatistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StockPage/KeyStatistics.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/StockPage/StockTickerOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StockPage/StockTickerOverview.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +50,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Components/StockPage" />
+      <recent name="$PROJECT_DIR$/src/Components/StockPage/Statistics" />
       <recent name="$PROJECT_DIR$/src/Components/Front Page" />
       <recent name="$PROJECT_DIR$/src/fonts" />
       <recent name="$PROJECT_DIR$/src/Components/AppBar" />
@@ -68,7 +67,7 @@
       <workItem from="1613015340344" duration="26279000" />
       <workItem from="1613438246026" duration="974000" />
       <workItem from="1613451191336" duration="22035000" />
-      <workItem from="1613649401664" duration="14917000" />
+      <workItem from="1613649401664" duration="22578000" />
     </task>
     <servers />
   </component>
