@@ -24,7 +24,7 @@ const PriceChart = () => {
           ],
         }}
         lineOptions={{ regionFill: 1 }}
-        dotSize={2}
+        dotSize={1}
       />
     </Chart>
   );
