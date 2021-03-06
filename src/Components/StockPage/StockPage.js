@@ -2,9 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import DataStrip from './DataStrip';
 import StockTickerOverview from './StockTickerOverview';
-import PriceChart from './PriceChart';
+import PriceChart from './Charts/PriceChart';
 import StockNews from './StockNews';
 import KeyStatistics from './KeyStatistics';
+import BalanceSheetChart from './Charts/BalanceSheetChart';
 
 const StockPageGrid = styled.div`
   display: grid;
@@ -28,12 +29,12 @@ const NewsContainer = styled.div`
 
 const StockPage = () => {
   return (
-    <StockPageGrid>
-      <DataStrip />
-      <StockTickerOverview />
-      <PriceChart />
-      <KeyStatistics />
-    </StockPageGrid>
+      <StockPageGrid>
+        <DataStrip />
+        <StockTickerOverview />
+        <PriceChart />
+        <KeyStatistics />
+      </StockPageGrid>
   );
 };
 

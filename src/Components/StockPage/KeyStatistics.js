@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import StatisticsModule from './Statistics/StatisticsModule';
-import AboutModule from './Statistics/AboutModule';
+import StatisticsModule from './Modules/StatisticsModule';
+import AboutModule from './Modules/AboutModule';
+import PriceChart from './Charts/PriceChart';
+import BalanceSheetChart from './Charts/BalanceSheetChart';
 
 let mockData = {
   'P/E Ration': 35.25,
   'Shares Issued': 4082000000,
-  EBITDA: 80342000000,
+  EBITDA: 803420000,
   Revenue: 65809000000,
   Profit: 101983000000,
 };
@@ -38,6 +40,7 @@ const KeyStatistics = () => {
   return (
     <KeyDetailsGrid>
       <Headline>Key Statistics</Headline>
+      <BalanceSheetChart />
       <Container style={{ gridArea: 'statistics' }}>
         <StatisticsModule data={mockData} title="Advanced Statistics" />
         <StatisticsModule data={mockDataTwo} title="Balance Sheet" />
@@ -57,18 +60,19 @@ const KeyDetailsGrid = styled.div`
   grid-area: key-statistics;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
     'headline headline headline headline'
     'statistics statistics statistics statistics'
     'statistics statistics statistics statistics'
+    'chart chart chart chart'
     'about about about about'
     'about about about about';
   background-color: black;
   padding: 25px;
   color: white;
-  border-radius: 4px;
+  border-radius: 5px;
 `;
 const Headline = styled.h2`
   grid-area: headline;

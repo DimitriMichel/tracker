@@ -48,14 +48,15 @@ const RowListItem = styled.div`
 `;
 const Label = styled.div`
   display: block;
-  font-size: 1rem;
+  font-size: 15px;
+  font-weight: bold;
   letter-spacing: 0.2px;
   color: white;
   float: left;
 `;
 const DataPoint = styled.div`
   display: block;
-  font-size: 1rem;
+  font-size: 15px;
   letter-spacing: 3px;
   color: white;
   float: right;
